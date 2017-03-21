@@ -9,14 +9,14 @@ Tested with Python 3.5.
 Tested on Linux systems.
 
 
-Written by: Virgina Commonwealth University Linux Users Group"""
+Written by: Virginia Commonwealth University Linux Users Group"""
 
 
 class Riddle:
     """A class of Riddle objects for the Room object to use.
 
 
-    Created for colaborative and learning purposes."""
+    Created for collaborative and learning purposes."""
 
     def __init__(self, question, answers):
         """Creates some variables for easy access."""

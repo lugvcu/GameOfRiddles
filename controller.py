@@ -10,7 +10,7 @@ Tested with Python 3.5.
 Tested on Linux systems.
 
 
-Written by: Virgina Commonwealth University Linux Users Group"""
+Written by: Virginia Commonwealth University Linux Users Group"""
 
 # Start standard library injections.
 from os.path import isfile
@@ -87,7 +87,7 @@ def room_maker(path):
     roomobjlist = []
     startbool = False
     questionbool = False
-    # If true, expect the data type specifed after #$Start [datatype].
+    # If true, expect the data type specified after #$Start [datatype].
     # If not true, expect end of room [#$End death message.].
     for nowline in lines:
         if nowline.endswith('\n'):

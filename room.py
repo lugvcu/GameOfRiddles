@@ -9,7 +9,7 @@ Tested with Python 3.5.
 Tested on Linux systems.
 
 
-Written by: Virgina Commonwealth University Linux Users Group"""
+Written by: Virginia Commonwealth University Linux Users Group"""
 
 # Start standard library injections.
 from random import randrange
