@@ -1,6 +1,13 @@
 import riddle as rid
 class node:
-    if (node == 0)
+    def node (self,node)
+            if (self.node == 0):
+                self.node =null
+            else if (self.node == 1):
+                node = +1
+            else:
+                node(self.node+1)
+
 
 class Room:
     def Current_room(self, node):
