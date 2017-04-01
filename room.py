@@ -13,17 +13,18 @@ class node:
 class Room:
     def current_Room(self, node):
         if (current_Room(node) == 0):
-            return current_Room(node) = 1
+             current_Room(node) = 1
         else if (current_Room(node) == 1):
-            current_Room(node) =+1
-            Entr
+            return Entry_Room;
         else:
+            current_Room(node) =+1
             return Current_room(Exit_room,self.node)
             return Current_room(Death_room,self.node)
             
     def Entry_Room(self,message):
-        if( Entry_Room == 1):
-            print ("Welcome to the game of riddles"+ self.rid(message)+"\n" )
+        if( current_Room(node) == 1):
+            print ("Welcome to the game of riddles\n"+ self.rid(message)+"\n" )
+            answer1
             if (rid.answer != self.answer1):
                return Death_room()
             else if (Exit_Room(node):
@@ -38,7 +39,7 @@ class Room:
             if (Exit_Room == 1):
                 print ("ending the game now would mean no vicotories without losses.")
             else:
-                print ("You have made it to the " Current_room(node))
+                print ("You have made it to the " current_Room(node))
 
     def death_Room(self,message):
         if (self.answer1 != self.rid(answer):
