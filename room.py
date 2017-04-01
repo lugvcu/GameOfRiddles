@@ -11,11 +11,12 @@ class node:
 
 
 class Room:
-    def Current_room(self, node):
-        if (Current_room(node) == 0):
-            return Current_Room(node) = 1
-        else if (Current_room(node) = 1):
-            Current_room(node) =+1
+    def current_Room(self, node):
+        if (current_Room(node) == 0):
+            return current_Room(node) = 1
+        else if (current_Room(node) == 1):
+            current_Room(node) =+1
+            Entr
         else:
             return Current_room(Exit_room,self.node)
             return Current_room(Death_room,self.node)
@@ -24,21 +25,23 @@ class Room:
         if( Entry_Room == 1):
             print ("Welcome to the game of riddles"+ self.rid(message)+"\n" )
             if (rid.answer != self.answer1):
-                Death_room()
-            else(Current_room):
-                Current_room(node)+1
-        else:
-            print (self.rid(message)+"\n")
+               return Death_room()
+            else if (Exit_Room(node):
+                    return Exit_Room
+            else(current_Room):
+                current_Room(node)+1
+                print (self.rid(message)+"\n")
+                
 
-    def Exit_Room(self,message):
+    def exit_Room(self,message):
         if ("exit" == Exit_Room):
             if (Exit_Room == 1):
                 print ("ending the game now would mean no vicotories without losses.")
             else:
-                print ("You have made it to the " Current_room(Node))
+                print ("You have made it to the " Current_room(node))
 
-    def Death_room(self,message):
+    def death_Room(self,message):
         if (self.answer1 != self.rid(answer):
-                print("your death was in vain")
+                print("your death was in not in vain you solved" current_Room(node))
 
                 
