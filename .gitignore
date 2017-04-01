@@ -87,3 +87,5 @@ ENV/
 
 # Rope project settings
 .ropeproject
+# vim swapfile for the gitingore
+.py.swp
